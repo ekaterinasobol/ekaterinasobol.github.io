@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio tag</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    body {
+    margin: 0;
+    background: linear-gradient(to bottom left, #66ccff 12%, #ff99cc 100%);
+    background-repeat: no-repeat;
+    }
+
+    .container {
+      width: 70%;
+      margin: 20px auto;
+      background-color: white;
+      padding: 15px;
+      border-radius: 15px;
+
+    }
+
+    .header {
+      text-align: center;
+      font-family: "Diplomata SC";
+      width: 80%;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 35px;
+    }
+
+    .photo {
+      float: right;
+      margin: 0 5px 5px;
+      max-width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      font-family:"Lobster";
+    }
+
+    .list {
+      padding:0;
+      list-style: none;
+    }
+
+    .list li{
+      padding:6px;
+    }
+
+    .list li:before {
+      padding-right: 11px;
+      font-weight: bold;
+      color: #a68ca9;
+      content: "\2606";
+    }
+
+    .list li:hover:before {
+      color: #a68ca9;
+      content: "\2605";
+    }
+
+    .playlist {
+      list-style: none;
+    }
+
+    .playlist li{
+      padding:10px;
+    }
+
+    .song {
+      font-weight: bold;
+      color: #4B0082;
+    }
+
+    audio {
+      max-width: 100%;
+    }
+
+    @media (max-width:700px) {
+      h1 {
+        font-size: 30px;
+      }
+    }
+
+    @media (max-width:500px) {
+      h1 {
+        font-size: 22px;
+      }
+      .photo {
+      float: none;
+    }
+    .container {
+      text-align: center;
+    }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Coldplay</h1>
+    </header>
+    <div class="about">
+      <img src="https://github.com/ekaterinasobol/ekaterinasobol.github.io/raw/main/264x264-000000-80-0-0.jpg" alt="coldplay" class="photo">
+      <span>Coldplay — британская рок-группа. Начав играть в январе 1996 года, настоящего успеха в мире Coldplay добились в 2000 году, после выхода их второго сингла «Yellow» из альбома Parachutes, ворвавшегося на вершины всех чартов Великобритании и Соединённых Штатов Америки. Альбомы Coldplay разошлись тиражом более 80 миллионов экземпляров.</span>
+      <p>Coldplay получали премию Грэмми семь раз за альбомы Parachutes, A Rush of Blood to the Head и Viva la Vida or Death and All His Friends, песни «Clocks» и «Viva la Vida», выступления с «In My Place» и «Viva la Vida».</p>
+      <p>Группа принимала участие в различных социальных проектах, таких как Band Aid 20, Live 8, кампании в поддержку детей, больных раком. Также Coldplay выступили на закрытии параолимпийских игр 2012 в Лондоне. 7 февраля 2016 года группа выступила в традиционном шоу в перерыве юбилейного пятидесятого Супербоула.</p>
+      <p>В декабре 2012 года портал Last.fm назвал Coldplay лучшим исполнителем за 10 лет скробблинга.</p>
+      <h2>Состав группы:</h2>
+      <ul class="list">
+        <li>Крис Мартин (Chris Martin) — вокал, клавишные, ритм-гитара, губная гармоника;</li>
+        <li>Джонни Баклэнд (Jonny Buckland) — лид-гитара, бэк-вокал;</li>
+        <li>Гай Берримен (Guy Berryman) — бас-гитара, синтезатор, акустическая гитара, губная гармоника, бэк-вокал;</li>
+        <li>Уилл Чемпион (Will Champion) — ударные, клавишные, бэк-вокал.</li>
+        <li>Фил Харви – менеджер (1998–2002), креативный директор (2006– н. в. )</li>
+      </ul>
+      <h2>Популярные композиции:</h2>
+      <ul class="playlist">
+        <li class="song">&#127925; Coldplay - Viva la vida:<br>
+        <audio controls>
+            <source src="https://github.com/ekaterinasobol/ekaterinasobol.github.io/raw/main/coldplay-viva-la-vida.mp3" type="audio/mp3">
+          </audio>
+        </li>
+        <li class="song">&#127925; Coldplay - Magic:<br>
+          <audio controls>
+            <source src="https://github.com/ekaterinasobol/ekaterinasobol.github.io/raw/main/coldplay-magic.mp3" type="audio/mp3">
+          </audio>
+        </li>
+        <li class="song">&#127925; Coldplay - Higher Power:<br>
+          <audio controls>
+            <source src="https://github.com/ekaterinasobol/ekaterinasobol.github.io/raw/main/coldplay-higher-power.mp3" type="audio/mp3">
+          </audio>
+        </li>
+        <li class="song">&#127925; Coldplay - Paradise:<br>
+          <audio controls>
+            <source src="https://github.com/ekaterinasobol/ekaterinasobol.github.io/raw/main/coldplay-paradise.mp3" type="audio/mp3">
+          </audio>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
